@@ -399,8 +399,6 @@ int main(int argc, char **argv)
     simplehttp_set_cb("/mget?*", mget_cb, NULL);
     simplehttp_set_cb("/fwmatch?*", fwmatch_cb, NULL);
     simplehttp_set_cb("/stats*", stats_cb, NULL);
-    simplehttp_set_cb("/reload", reload_cb, NULL);
-    simplehttp_set_cb("/exit", exit_cb, NULL);
     simplehttp_main();
     free_options();
     
