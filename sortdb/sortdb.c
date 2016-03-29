@@ -13,7 +13,7 @@
 #include <simplehttp/simplehttp.h>
 
 #define NAME        "sortdb"
-#define VERSION     "1.5.1"
+#define VERSION     "1.5.1a"
 #define DEBUG       1
 
 void stats_cb(struct evhttp_request *req, struct evbuffer *evb, void *ctx);
